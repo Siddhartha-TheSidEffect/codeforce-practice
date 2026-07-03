@@ -6,18 +6,25 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 4 |
+| 2 | 5 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [brute force](#brute-force) (1)
 - [constructive algorithms](#constructive-algorithms) (1)
-- [greedy](#greedy) (1)
+- [greedy](#greedy) (2)
 - [implementation](#implementation) (1)
 - [math](#math) (1)
 
 ---
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
 
 ### constructive algorithms
 
@@ -30,6 +37,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1537C | [Challenging Cliffs](https://codeforces.com/contest/1537/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1537/C%20-%20Challenging%20Cliffs/solution.cpp) |
+| 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
 
 ### implementation
 
