@@ -6,17 +6,17 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 5 |
+| 3 | 5 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (1)
+- [brute force](#brute-force) (2)
 - [constructive algorithms](#constructive-algorithms) (1)
-- [greedy](#greedy) (2)
+- [greedy](#greedy) (3)
 - [implementation](#implementation) (1)
-- [math](#math) (1)
+- [math](#math) (2)
 
 ---
 
@@ -24,6 +24,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
 
 ### constructive algorithms
@@ -37,6 +38,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1537C | [Challenging Cliffs](https://codeforces.com/contest/1537/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1537/C%20-%20Challenging%20Cliffs/solution.cpp) |
+| 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
 
 ### implementation
@@ -50,6 +52,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1537C | [Challenging Cliffs](https://codeforces.com/contest/1537/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1537/C%20-%20Challenging%20Cliffs/solution.cpp) |
+| 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
 
 ---
 
