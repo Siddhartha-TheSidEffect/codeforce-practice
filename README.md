@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 27 | 15 |
+| 28 | 16 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (2)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (7)
@@ -29,6 +30,12 @@
 - [two pointers](#two-pointers) (2)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2258A | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2258/A%20-%20Odd%20Eraser/solution.cpp) |
 
 ### binary search
 
