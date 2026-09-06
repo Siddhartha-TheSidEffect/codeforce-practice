@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 54 | 17 |
+| 55 | 17 |
 
 ---
 
@@ -21,9 +21,9 @@
 - [data structures](#data-structures) (3)
 - [dp](#dp) (5)
 - [geometry](#geometry) (3)
-- [greedy](#greedy) (27)
+- [greedy](#greedy) (28)
 - [implementation](#implementation) (13)
-- [math](#math) (18)
+- [math](#math) (19)
 - [number theory](#number-theory) (8)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (14)
@@ -142,6 +142,7 @@
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
+| 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1742/D%20-%20Coprime/solution.cpp) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
 | 1791E | [Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1791/E%20-%20Negatives%20and%20Positives/solution.cpp) |
@@ -187,6 +188,7 @@
 | 1537C | [Challenging Cliffs](https://codeforces.com/contest/1537/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1537/C%20-%20Challenging%20Cliffs/solution.cpp) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.cpp) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.cpp) |
+| 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.cpp) |
 | 1820B | [JoJo's Incredible Adventures](https://codeforces.com/contest/1820/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1820/B%20-%20JoJo's%20Incredible%20Adventures/solution.cpp) |
 | 1826B | [Lunatic Never Content](https://codeforces.com/contest/1826/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1826/B%20-%20Lunatic%20Never%20Content/solution.cpp) |
