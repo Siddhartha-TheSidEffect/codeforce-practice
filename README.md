@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 67 | 17 |
+| 68 | 17 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [geometry](#geometry) (3)
 - [greedy](#greedy) (33)
 - [implementation](#implementation) (15)
-- [math](#math) (20)
+- [math](#math) (21)
 - [number theory](#number-theory) (8)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (17)
@@ -219,6 +219,7 @@
 | 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/C%20-%20Quests/solution.cpp) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2194/B%20-%20Offshores/solution.cpp) |
 | 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
+| 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2257/B%20-%20Gigantomachy/solution.cpp) |
 
 ### number theory
 
