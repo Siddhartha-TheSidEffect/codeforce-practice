@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 79 | 18 |
+| 80 | 18 |
 
 ---
 
@@ -22,14 +22,14 @@
 - [dp](#dp) (7)
 - [geometry](#geometry) (3)
 - [greedy](#greedy) (38)
-- [implementation](#implementation) (18)
+- [implementation](#implementation) (19)
 - [math](#math) (25)
 - [number theory](#number-theory) (9)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (19)
+- [sortings](#sortings) (20)
 - [strings](#strings) (10)
 - [trees](#trees) (1)
-- [two pointers](#two-pointers) (12)
+- [two pointers](#two-pointers) (13)
 
 ---
 
@@ -213,6 +213,7 @@
 | 2217B | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2217/B%20-%20Flip%20the%20Bit%20(Easy%20Version)/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
+| 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
 
 ### math
 
@@ -287,6 +288,7 @@
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.cpp) |
+| 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
 
 ### strings
 
@@ -325,6 +327,7 @@
 | 1899C | [Yarik and Array](https://codeforces.com/contest/1899/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1899/C%20-%20Yarik%20and%20Array/solution.cpp) |
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
+| 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
 
 ---
 
