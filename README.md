@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 94 | 18 |
+| 95 | 19 |
 
 ---
 
@@ -20,6 +20,7 @@
 - [constructive algorithms](#constructive-algorithms) (14)
 - [data structures](#data-structures) (10)
 - [dp](#dp) (7)
+- [games](#games) (1)
 - [geometry](#geometry) (3)
 - [greedy](#greedy) (44)
 - [implementation](#implementation) (21)
@@ -152,6 +153,12 @@
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2263A | [Min Max Game](https://codeforces.com/contest/2263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2263/A%20-%20Min%20Max%20Game/solution.cpp) |
 
 ### geometry
 
