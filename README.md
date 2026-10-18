@@ -23,12 +23,12 @@
 - [games](#games) (1)
 - [geometry](#geometry) (3)
 - [greedy](#greedy) (51)
-- [implementation](#implementation) (25)
+- [implementation](#implementation) (26)
 - [math](#math) (34)
 - [number theory](#number-theory) (11)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (27)
-- [strings](#strings) (13)
+- [strings](#strings) (14)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (18)
 
@@ -272,6 +272,7 @@
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 | 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
+| 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.cpp) |
 
 ### math
 
@@ -383,6 +384,7 @@
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 | 2266C | [AND, OR, Sort!](https://codeforces.com/contest/2266/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2266/C%20-%20AND%2C%20OR%2C%20Sort!/solution.cpp) |
+| 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.cpp) |
 
 ### trees
 
