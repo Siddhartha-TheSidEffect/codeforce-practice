@@ -72,25 +72,18 @@ template <class T, class V> void _print(pair <T, V> p);
 template <class T> void _print(vector<T>v);
 template <class T, class V> void _print(pair <T, V> p) {cerr << "{"; _print(p.first); cerr << ","; _print(p.second); cerr << "}";}
 template <class T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " "; } cerr << "]";}
-int give(int i,int a,int b,int c,vector<int>&dp){
-    if(i==0)return 0;
-    if(i<0)return -1e9;
-    if(dp[i]!=-1)return dp[i];
-    int A=0,B=0,C=0;
-    A=1+give(i-a,a,b,c,dp);
-    B=1+give(i-b,a,b,c,dp);
-    C=1+give(i-c,a,b,c,dp);
-    dp[i]=max({A,B,C});
-    return dp[i];
-}
-void solve() {
-    ll n,a,b,c; cin>>n>>a>>b>>c; 
-    vector<int>dp(n+1,-1);
-    dp[0]=0;
-    ll ans=give(n,a,b,c,dp);
-    cout<<ans<<endl;
  
-    
+void solve() {
+    int n,a,b,c; cin>>n>>a>>b>>c; 
+    vector<int>dp(n+1,-1e9);
+    dp[0]=0;
+    for(int i=1;i<=n;i++){
+        if(i-a>=0)dp[i]=max(dp[i],1+dp[i-a]);
+        if(i-b>=0)dp[i]=max(dp[i],1+dp[i-b]);
+        if(i-c>=0)dp[i]=max(dp[i],1+dp[i-c]);
+       
+    }
+    cout<<dp[n]<<endl; 
 }
 int main() {
     ios_base::sync_with_stdio(false);
