@@ -73,20 +73,7 @@ template <class T> void _print(vector<T>v);
 template <class T, class V> void _print(pair <T, V> p) {cerr << "{"; _print(p.first); cerr << ","; _print(p.second); cerr << "}";}
 template <class T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " "; } cerr << "]";}
  
-int solve(vector<vector<int>>&dp,int a,vector<int>&arr,int i) {
-    if(a==2 && (arr[i]==0 ||arr[i]==1)){return 1e9;}
-    if(a==1 && (arr[i]==0 || arr[i]==2)){return 1e9;}
-    if(i==0){
-        if(a==0)return 1;
-        else{return 0;}
-    }
-    if(dp[i][a]!=-1)return dp[i][a];
-    int ans=1e9;
-    if(a==0){ans=1+min({solve(dp,0,arr,i-1),solve(dp,1,arr,i-1),solve(dp,2,arr,i-1)});}
-    if(a==1){ans=min(solve(dp,0,arr,i-1),solve(dp,2,arr,i-1));}
-    if(a==2){ans=min(solve(dp,0,arr,i-1),solve(dp,1,arr,i-1));}
-    return dp[i][a]=ans;    
-}
+ 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -94,7 +81,15 @@ int main() {
     int n;
     cin>>n; vector<int>arr(n);
     for(ll i=0;i<n;i++){cin>>arr[i];}
-    vector<vector<int>>dp(n,vector<int>(3,-1));
-    int ans=min({solve(dp,0,arr,n-1),solve(dp,1,arr,n-1),solve(dp,2,arr,n-1)});
-    cout<<ans<<endl;
+    vector<vector<int>>dp(n,vector<int>(3,1e9));
+    dp[0][0]=1;
+    if(arr[0]==1||arr[0]==3)dp[0][1]=0;
+    if(arr[0]==2 ||arr[0]==3)dp[0][2]=0;
+     for(int i=1;i<n;i++){
+        dp[i][0]=1+min({dp[i-1][0],dp[i-1][1],dp[i-1][2]});
+        if(arr[i]==1 ||arr[i]==3){dp[i][1]=min(dp[i-1][0],dp[i-1][2]);}
+        if(arr[i]==2||arr[i]==3){dp[i][2]=min(dp[i-1][0],dp[i-1][1]);}
+    }
+    cout<<min({dp[n-1][0],dp[n-1][1],dp[n-1][2]})<<endl;
+    
 }
