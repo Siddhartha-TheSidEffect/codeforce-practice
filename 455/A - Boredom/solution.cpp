@@ -73,25 +73,23 @@ template <class T> void _print(vector<T>v);
 template <class T, class V> void _print(pair <T, V> p) {cerr << "{"; _print(p.first); cerr << ","; _print(p.second); cerr << "}";}
 template <class T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " "; } cerr << "]";}
  
-ll solve(vector<ll>&cnt,ll i,vector<ll>&dp) {
-    if(i<0)return -1e9;
-    if(dp[i]!=-1)return dp[i];
-    ll tk=solve(cnt,i-1,dp);
-    ll sp=i*cnt[i]+solve(cnt,i-2,dp);
-    dp[i]=max(tk,sp);
-    return dp[i]; 
-}
+ 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    ll n,maxi=-1e9; cin>>n;vll cnt(1e5,0);
+    ll n,maxi=-1e9; cin>>n;vll cnt(1e5+1,0);
     for(ll i=0;i<n;i++){ll x;cin>>x;cnt[x]++;maxi=max(maxi,x);}
-    vll dp(maxi+1,-1);
+    vll dp(maxi+1,-1e9);
     dp[0]=0;
     dp[1]=1*cnt[1];
-    ll ans=solve(cnt,maxi,dp);
-    cout<<ans<<endl;
+    for(ll i=2;i<=maxi;i++){
+        ll tk=i*cnt[i]+dp[i-2];
+        ll sp=dp[i-1];
+        dp[i]=max(tk,sp);
+    }
+    
+    cout<<dp[maxi]<<endl;
     
  
 }
