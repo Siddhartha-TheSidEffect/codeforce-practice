@@ -93,14 +93,23 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    int n;cin>>n;
-    arr.resize(n);
-    dp.assign(n,vector<long long>(n+1,-1e18));
-    check.assign(n,vector<bool>(n+1,false));
+    ll n;cin>>n;
+    vector<ll>arr(n);
+    vector<ll>dp(n+1,-1e18);
+    dp[0]=0;
     for(ll i=0;i<n;i++){cin>>arr[i];}
+     for(ll i=0;i<n;i++){
+        for(ll a=i+1;a>=1;a--){
+            if(dp[a-1]>=0 && dp[a-1]+arr[i]>=0){
+                dp[a]=max(dp[a],arr[i]+dp[a-1]);
+            }
+ 
+        }
+     }
+ 
     int ans=0;
     for(int a=n;a>=0;a--){
-        if(solve(n-1,a)>=0){ans=a;break;}
+        if(dp[a]>=0){ans=a;break;}
     }
     cout<<ans<<endl;
  
