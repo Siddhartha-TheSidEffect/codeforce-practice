@@ -77,19 +77,7 @@ string s;
 vector<ll>dp;
 vector<ll>nxt;
 vector<ll>lst;
-ll cost(ll i){
-    n=s.size();
-    if(i==n) return 0;
-    if(i>n)return 1e18;
-    if(dp[i]!=-1)return dp[i];
-    ll take=1e18,skip=1e18;
-    if(nxt[i]!=-1){ 
-        take=(nxt[i]-i-1)+cost(nxt[i]+1);}
-        
-    skip=1+cost(i+1);
-    dp[i]=min(take,skip);
-    return dp[i];
-}
+ 
 void solve() {
     cin>>s;
     n=s.size();
@@ -99,9 +87,16 @@ void solve() {
         nxt[i]=lst[s[i]-'a'];
         lst[s[i]-'a']=i;
     }
-    dp.assign(s.size()+1,-1);
-    ll ans=cost(0);
-    cout<<ans<<endl;
+    dp.assign(s.size()+1,1e18);
+    dp[n]=0;
+    for(ll i=n-1;i>=0;i--){
+        ll take=1e18,skip=1e18;
+        if(nxt[i]!=-1)take=(nxt[i]-i-1)+dp[nxt[i]+1];
+        skip=1+dp[i+1];
+        dp[i]=min(take,skip);
+ 
+    }
+    cout<<dp[0]<<endl;
     
 }
 int main() {
