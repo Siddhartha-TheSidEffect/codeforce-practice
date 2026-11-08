@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 132 | 19 |
+| 133 | 19 |
 
 ---
 
@@ -19,10 +19,10 @@
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (14)
-- [dp](#dp) (16)
+- [dp](#dp) (17)
 - [games](#games) (1)
 - [geometry](#geometry) (3)
-- [greedy](#greedy) (56)
+- [greedy](#greedy) (57)
 - [implementation](#implementation) (28)
 - [math](#math) (35)
 - [number theory](#number-theory) (12)
@@ -180,6 +180,7 @@
 |---|---------|------------|----------|
 | 189A | [Cut Ribbon](https://codeforces.com/contest/189/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/189/A%20-%20Cut%20Ribbon/solution.cpp) |
 | 455A | [Boredom](https://codeforces.com/contest/455/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/455/A%20-%20Boredom/solution.cpp) |
+| 545C | [Woodcutters](https://codeforces.com/contest/545/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/545/C%20-%20Woodcutters/solution.cpp) |
 | 698A | [Vacations](https://codeforces.com/contest/698/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/698/A%20-%20Vacations/solution.cpp) |
 | 1108D | [Diverse Garland](https://codeforces.com/contest/1108/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1108/D%20-%20Diverse%20Garland/solution.cpp) |
 | 1415C | [Bouncing Ball](https://codeforces.com/contest/1415/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1415/C%20-%20Bouncing%20Ball/solution.cpp) |
@@ -213,6 +214,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 545C | [Woodcutters](https://codeforces.com/contest/545/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/545/C%20-%20Woodcutters/solution.cpp) |
 | 1108D | [Diverse Garland](https://codeforces.com/contest/1108/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1108/D%20-%20Diverse%20Garland/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
