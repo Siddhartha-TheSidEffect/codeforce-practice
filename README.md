@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 133 | 19 |
+| 134 | 19 |
 
 ---
 
@@ -19,11 +19,11 @@
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (14)
-- [dp](#dp) (17)
+- [dp](#dp) (18)
 - [games](#games) (1)
 - [geometry](#geometry) (3)
 - [greedy](#greedy) (57)
-- [implementation](#implementation) (28)
+- [implementation](#implementation) (29)
 - [math](#math) (35)
 - [number theory](#number-theory) (12)
 - [shortest paths](#shortest-paths) (1)
@@ -183,6 +183,7 @@
 | 545C | [Woodcutters](https://codeforces.com/contest/545/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/545/C%20-%20Woodcutters/solution.cpp) |
 | 698A | [Vacations](https://codeforces.com/contest/698/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/698/A%20-%20Vacations/solution.cpp) |
 | 1108D | [Diverse Garland](https://codeforces.com/contest/1108/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1108/D%20-%20Diverse%20Garland/solution.cpp) |
+| 1234C | [Pipes](https://codeforces.com/contest/1234/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1234/C%20-%20Pipes/solution.cpp) |
 | 1415C | [Bouncing Ball](https://codeforces.com/contest/1415/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1415/C%20-%20Bouncing%20Ball/solution.cpp) |
 | 1526C1 | [Potions (Easy Version)](https://codeforces.com/contest/1526/problem/C1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1526/C1%20-%20Potions%20(Easy%20Version)/solution.cpp) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
@@ -278,6 +279,7 @@
 |---|---------|------------|----------|
 | 702C | [Cellular Network](https://codeforces.com/contest/702/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/702/C%20-%20Cellular%20Network/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
+| 1234C | [Pipes](https://codeforces.com/contest/1234/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1234/C%20-%20Pipes/solution.cpp) |
 | 1362A | [Johnny and Ancient Computer](https://codeforces.com/contest/1362/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1362/A%20-%20Johnny%20and%20Ancient%20Computer/solution.cpp) |
 | 1415C | [Bouncing Ball](https://codeforces.com/contest/1415/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1415/C%20-%20Bouncing%20Ball/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.cpp) |
