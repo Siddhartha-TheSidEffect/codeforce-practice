@@ -75,16 +75,6 @@ template <class T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_prin
 vector<string>arr;
 vector<vector<ll>>dp;
 ll n;
-bool solve(ll i,ll j){
-    if( j==n)return(i==1);
-    
-    if(dp[i][j]!=-1)return dp[i][j];
-    bool one =false;
-    if(arr[i][j]<='2'){one=solve(i,j+1);}
-    else if(arr[1-i][j]>='3'){one=solve(1-i,j+1);}
-    return dp[i][j]=one;
-}
- 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -93,9 +83,18 @@ int main() {
     while(q--){
         cin>>n;
         arr.resize(2);
-        dp.assign(2,vector<ll>(n,-1));
+        dp.assign(2,vector<ll>(n+1,0));
         cin>>arr[0]>>arr[1];
-        bool ans=solve(0,0);
+        dp[0][0]=1;
+        for(ll j=0;j<n;j++){
+            for(ll i=0;i<2;i++){
+                ll one =0;
+                if(arr[i][j]<='2')one=dp[i][j];
+                else if(arr[1-i][j]>='3')one=dp[1-i][j];
+                dp[i][j+1]=one;
+            }
+        }
+        ll ans=dp[1][n];
         if(ans){cout<<"YES"<<endl;}
         else{cout<<"NO"<<endl;}
     }
