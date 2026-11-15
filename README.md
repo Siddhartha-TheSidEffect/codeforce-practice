@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 138 | 20 |
+| 139 | 21 |
 
 ---
 
@@ -18,18 +18,19 @@
 - [brute force](#brute-force) (26)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (19)
-- [data structures](#data-structures) (15)
+- [data structures](#data-structures) (16)
 - [dp](#dp) (19)
+- [dsu](#dsu) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (59)
-- [implementation](#implementation) (31)
+- [greedy](#greedy) (60)
+- [implementation](#implementation) (32)
 - [math](#math) (36)
 - [number theory](#number-theory) (12)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (29)
-- [strings](#strings) (17)
+- [strings](#strings) (18)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (19)
 
@@ -177,6 +178,7 @@
 | 2193C | [Replace and Sum](https://codeforces.com/contest/2193/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2193/C%20-%20Replace%20and%20Sum/solution.cpp) |
 | 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
 | 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
+| 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
 
 ### dp
 
@@ -201,6 +203,12 @@
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
+
+### dsu
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
 
 ### games
 
@@ -285,6 +293,7 @@
 | 2266C | [AND, OR, Sort!](https://codeforces.com/contest/2266/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2266/C%20-%20AND%2C%20OR%2C%20Sort!/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 | 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
+| 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
 
 ### implementation
 
@@ -321,6 +330,7 @@
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.cpp) |
 | 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/A%20-%20Three%20Piles/solution.cpp) |
 | 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.cpp) |
+| 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
 
 ### math
 
@@ -442,6 +452,7 @@
 | 2266C | [AND, OR, Sort!](https://codeforces.com/contest/2266/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2266/C%20-%20AND%2C%20OR%2C%20Sort!/solution.cpp) |
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.cpp) |
 | 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.cpp) |
+| 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
 
 ### trees
 
