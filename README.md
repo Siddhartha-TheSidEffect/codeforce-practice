@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 139 | 21 |
+| 140 | 21 |
 
 ---
 
@@ -19,14 +19,14 @@
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (19)
 - [data structures](#data-structures) (16)
-- [dp](#dp) (19)
+- [dp](#dp) (20)
 - [dsu](#dsu) (1)
-- [games](#games) (1)
+- [games](#games) (2)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (60)
 - [implementation](#implementation) (32)
-- [math](#math) (36)
+- [math](#math) (37)
 - [number theory](#number-theory) (12)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (29)
@@ -203,6 +203,7 @@
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
+| 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/E%20-%20Avalanche/solution.cpp) |
 
 ### dsu
 
@@ -215,6 +216,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2263A | [Min Max Game](https://codeforces.com/contest/2263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2263/A%20-%20Min%20Max%20Game/solution.cpp) |
+| 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/E%20-%20Avalanche/solution.cpp) |
 
 ### geometry
 
@@ -372,6 +374,7 @@
 | 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2257/B%20-%20Gigantomachy/solution.cpp) |
 | 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
 | 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/A%20-%20Three%20Piles/solution.cpp) |
+| 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/E%20-%20Avalanche/solution.cpp) |
 
 ### number theory
 
