@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 144 | 21 |
+| 145 | 21 |
 
 ---
 
@@ -24,7 +24,7 @@
 - [games](#games) (2)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (62)
+- [greedy](#greedy) (63)
 - [implementation](#implementation) (33)
 - [math](#math) (38)
 - [number theory](#number-theory) (12)
@@ -299,6 +299,7 @@
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
 | 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.cpp) |
 | 2278C | [Math and Physics](https://codeforces.com/contest/2278/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2278/C%20-%20Math%20and%20Physics/solution.cpp) |
+| 2278D | [Lock and Unlock](https://codeforces.com/contest/2278/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2278/D%20-%20Lock%20and%20Unlock/solution.cpp) |
 | 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 | 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
 
