@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1975/problem/C" target="_blank" rel="noopener noreferrer">1975C — Chamo and Mocha's Array</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1975C](https://codeforces.com/contest/1975/problem/C) |
+
+## Topics
+`binary search` `brute force` `greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. Chamo and Mocha's Array</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Mocha likes arrays, so before her departure, Chamo gave her an array $$$a$$$ consisting of $$$n$$$ positive integers as a gift.</p><p>Mocha doesn't like arrays containing different numbers, so Mocha decides to use magic to change the array. Mocha can perform the following three-step operation some (possibly, zero) times: </p><ol> <li> Choose indices $$$l$$$ and $$$r$$$ ($$$1 \leq l  \lt  r \leq n$$$) </li><li> Let $$$x$$$ be the median$$$^\dagger$$$ of the subarray $$$[a_l, a_{l+1},\ldots, a_r]$$$ </li><li> Set all values $$$a_l, a_{l+1},\ldots, a_r$$$ to $$$x$$$ </li></ol><p>Suppose $$$a=[1,2,3,4,5]$$$ initially: </p><ul> <li> If Mocha chooses $$$(l,r)=(3,4)$$$ in the first operation, then $$$x=3$$$, the array will be changed into $$$a=[1,2,3,3,5]$$$. </li><li> If Mocha chooses $$$(l,r)=(1,3)$$$ in the first operation, then $$$x=2$$$, the array will be changed into $$$a=[2,2,2,4,5]$$$. </li></ul><p>Mocha will perform the operation until the array contains only the same number. Mocha wants to know what is the maximum possible value of this number.</p><p>$$$^\dagger$$$ The median in an array $$$b$$$ of length $$$m$$$ is an element that occupies position number $$$\lfloor \frac{m+1}{2} \rfloor$$$ after we sort the elements in non-decreasing order. For example, the median of $$$[3,1,4,1,5]$$$ is $$$3$$$ and the median of $$$[5,25,20,24]$$$ is $$$20$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1\leq t\leq 500$$$). The description of the test cases follows.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$2\leq n\leq 10^5$$$) — the length of the array $$$a$$$.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1,a_2,\ldots,a_n$$$ ($$$1\leq a_i \leq 10^9$$$) — the elements of the array $$$a$$$.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output the maximum value of the number.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0043881869908154103" id="id00980507166414365" class="input-output-copier">Copy</div></div><pre data-content="2
+2
+1 2
+5
+1 2 3 4 5
+" id="id0043881869908154103"><div class="test-example-line test-example-line-even test-example-line-0">2</div><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2</div><div class="test-example-line test-example-line-even test-example-line-2">5</div><div class="test-example-line test-example-line-even test-example-line-2">1 2 3 4 5</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005545183067573768" id="id00829373503515765" class="input-output-copier">Copy</div></div><pre id="id005545183067573768">1
+4
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, $$$a=[1,2]$$$. Mocha can only choose the interval $$$(l,r)=(1,2)$$$. The array will be changed to $$$a=[1,1]$$$. Therefore, the answer is $$$1$$$.</p><p>In the second test case, Mocha can perform the following operations:</p><ul> <li> Choose the interval $$$(l,r)=(4,5)$$$, then $$$a=[1,2,3,4,4]$$$. </li><li> Choose the interval $$$(l,r)=(3,5)$$$, then $$$a=[1,2,4,4,4]$$$. </li><li> Choose the interval $$$(l,r)=(1,5)$$$, then $$$a=[4,4,4,4,4]$$$. </li></ul><p>The array contains only the same number, which is $$$4$$$. It can be proven that the maximum value of the final number cannot be greater than $$$4$$$.</p></div>
