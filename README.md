@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 146 | 21 |
+| 147 | 21 |
 
 ---
 
@@ -25,8 +25,8 @@
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (64)
-- [implementation](#implementation) (33)
-- [math](#math) (38)
+- [implementation](#implementation) (34)
+- [math](#math) (39)
 - [number theory](#number-theory) (12)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (30)
@@ -330,6 +330,7 @@
 | 1850E | [Cardboard for Pictures](https://codeforces.com/contest/1850/problem/E) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1850/E%20-%20Cardboard%20for%20Pictures/solution.cpp) |
 | 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
+| 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.cpp) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2194/B%20-%20Offshores/solution.cpp) |
 | 2217B | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2217/B%20-%20Flip%20the%20Bit%20(Easy%20Version)/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
@@ -376,6 +377,7 @@
 | 1891B | [Deja Vu](https://codeforces.com/contest/1891/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1891/B%20-%20Deja%20Vu/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
 | 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/C%20-%20Quests/solution.cpp) |
+| 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2194/B%20-%20Offshores/solution.cpp) |
 | 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
