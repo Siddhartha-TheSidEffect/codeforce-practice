@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 155 | 21 |
+| 156 | 21 |
 
 ---
 
@@ -19,12 +19,12 @@
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (22)
 - [data structures](#data-structures) (17)
-- [dp](#dp) (21)
+- [dp](#dp) (22)
 - [dsu](#dsu) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (70)
+- [greedy](#greedy) (71)
 - [implementation](#implementation) (36)
 - [math](#math) (42)
 - [number theory](#number-theory) (13)
@@ -214,6 +214,7 @@
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
+| 1945D | [Seraphim the Owl](https://codeforces.com/contest/1945/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1945/D%20-%20Seraphim%20the%20Owl/solution.cpp) |
 | 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/E%20-%20Avalanche/solution.cpp) |
 
 ### dsu
@@ -295,6 +296,7 @@
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/C%20-%20Quests/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
+| 1945D | [Seraphim the Owl](https://codeforces.com/contest/1945/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1945/D%20-%20Seraphim%20the%20Owl/solution.cpp) |
 | 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 1975C | [Chamo and Mocha's Array](https://codeforces.com/contest/1975/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1975/C%20-%20Chamo%20and%20Mocha's%20Array/solution.cpp) |
 | 2000D | [Right Left Wrong](https://codeforces.com/contest/2000/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2000/D%20-%20Right%20Left%20Wrong/solution.cpp) |
