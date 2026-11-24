@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 160 | 21 |
+| 161 | 24 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [Uncategorized](#uncategorized) (25)
 - [binary search](#binary-search) (20)
-- [bitmasks](#bitmasks) (7)
+- [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (27)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (22)
@@ -25,12 +25,15 @@
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (74)
-- [implementation](#implementation) (36)
-- [math](#math) (45)
+- [hashing](#hashing) (1)
+- [implementation](#implementation) (37)
+- [math](#math) (46)
 - [number theory](#number-theory) (13)
+- [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (30)
 - [strings](#strings) (20)
+- [ternary search](#ternary-search) (1)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (22)
 
@@ -101,6 +104,7 @@
 | 1807G2 | [Subsequence Addition (Hard Version)](https://codeforces.com/contest/1807/problem/G2) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1807/G2%20-%20Subsequence%20Addition%20(Hard%20Version)/solution.cpp) |
 | 1842B | [Tenzing and Books](https://codeforces.com/contest/1842/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1842/B%20-%20Tenzing%20and%20Books/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
+| 2020C | [Bitwise Balancing](https://codeforces.com/contest/2020/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2020/C%20-%20Bitwise%20Balancing/solution.cpp) |
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
 
 ### brute force
@@ -331,6 +335,12 @@
 | 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 | 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
 
+### hashing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2020C | [Bitwise Balancing](https://codeforces.com/contest/2020/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2020/C%20-%20Bitwise%20Balancing/solution.cpp) |
+
 ### implementation
 
 | # | Problem | Difficulty | Solution |
@@ -360,6 +370,7 @@
 | 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.cpp) |
 | 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 2000D | [Right Left Wrong](https://codeforces.com/contest/2000/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2000/D%20-%20Right%20Left%20Wrong/solution.cpp) |
+| 2020C | [Bitwise Balancing](https://codeforces.com/contest/2020/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2020/C%20-%20Bitwise%20Balancing/solution.cpp) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2194/B%20-%20Offshores/solution.cpp) |
 | 2217B | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2217/B%20-%20Flip%20the%20Bit%20(Easy%20Version)/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
@@ -410,6 +421,7 @@
 | 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 2000E | [Photoshoot for Gorillas](https://codeforces.com/contest/2000/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2000/E%20-%20Photoshoot%20for%20Gorillas/solution.cpp) |
 | 2020B | [Brightness Begins](https://codeforces.com/contest/2020/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2020/B%20-%20Brightness%20Begins/solution.cpp) |
+| 2020C | [Bitwise Balancing](https://codeforces.com/contest/2020/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2020/C%20-%20Bitwise%20Balancing/solution.cpp) |
 | 2033D | [Kousuke's Assignment](https://codeforces.com/contest/2033/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2033/D%20-%20Kousuke's%20Assignment/solution.cpp) |
 | 2091D | [Place of the Olympiad](https://codeforces.com/contest/2091/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2091/D%20-%20Place%20of%20the%20Olympiad/solution.cpp) |
 | 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
@@ -439,6 +451,12 @@
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
 | 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
+
+### schedules
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2020C | [Bitwise Balancing](https://codeforces.com/contest/2020/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2020/C%20-%20Bitwise%20Balancing/solution.cpp) |
 
 ### shortest paths
 
@@ -506,6 +524,12 @@
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.cpp) |
 | 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.cpp) |
 | 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/D%20-%20Letters%20Down/solution.cpp) |
+
+### ternary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2020C | [Bitwise Balancing](https://codeforces.com/contest/2020/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2020/C%20-%20Bitwise%20Balancing/solution.cpp) |
 
 ### trees
 
