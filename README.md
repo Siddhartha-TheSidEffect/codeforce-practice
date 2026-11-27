@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 162 | 24 |
+| 163 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (25)
-- [binary search](#binary-search) (20)
+- [binary search](#binary-search) (21)
 - [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (28)
 - [combinatorics](#combinatorics) (4)
@@ -31,11 +31,11 @@
 - [number theory](#number-theory) (13)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (30)
+- [sortings](#sortings) (31)
 - [strings](#strings) (21)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (1)
-- [two pointers](#two-pointers) (22)
+- [two pointers](#two-pointers) (23)
 
 ---
 
@@ -89,6 +89,7 @@
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1975C | [Chamo and Mocha's Array](https://codeforces.com/contest/1975/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1975/C%20-%20Chamo%20and%20Mocha's%20Array/solution.cpp) |
 | 2020B | [Brightness Begins](https://codeforces.com/contest/2020/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2020/B%20-%20Brightness%20Begins/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 | 2091D | [Place of the Olympiad](https://codeforces.com/contest/2091/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2091/D%20-%20Place%20of%20the%20Olympiad/solution.cpp) |
 | 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
@@ -498,6 +499,7 @@
 | 1891B | [Deja Vu](https://codeforces.com/contest/1891/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1891/B%20-%20Deja%20Vu/solution.cpp) |
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.cpp) |
 | 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
@@ -566,6 +568,7 @@
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1955D | [Inaccurate Subsequence Search](https://codeforces.com/contest/1955/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1955/D%20-%20Inaccurate%20Subsequence%20Search/solution.cpp) |
 | 2000D | [Right Left Wrong](https://codeforces.com/contest/2000/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2000/D%20-%20Right%20Left%20Wrong/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 | 2069C | [Beautiful Sequence](https://codeforces.com/contest/2069/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2069/C%20-%20Beautiful%20Sequence/solution.cpp) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 | 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
