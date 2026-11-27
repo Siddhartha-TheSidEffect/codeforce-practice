@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 164 | 24 |
+| 165 | 24 |
 
 ---
 
@@ -17,14 +17,14 @@
 - [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (29)
 - [combinatorics](#combinatorics) (4)
-- [constructive algorithms](#constructive-algorithms) (23)
+- [constructive algorithms](#constructive-algorithms) (24)
 - [data structures](#data-structures) (20)
 - [dp](#dp) (25)
 - [dsu](#dsu) (2)
-- [games](#games) (2)
+- [games](#games) (3)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (76)
+- [greedy](#greedy) (77)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (38)
 - [math](#math) (46)
@@ -172,6 +172,7 @@
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
 | 2026B | [Black Cells](https://codeforces.com/contest/2026/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2026/B%20-%20Black%20Cells/solution.cpp) |
+| 2123D | [Binary String Battle](https://codeforces.com/contest/2123/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2123/D%20-%20Binary%20String%20Battle/solution.cpp) |
 | 2192B | [Flipping Binary String](https://codeforces.com/contest/2192/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2192/B%20-%20Flipping%20Binary%20String/solution.cpp) |
 | 2263B | [Min Matrices](https://codeforces.com/contest/2263/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2263/B%20-%20Min%20Matrices/solution.cpp) |
 | 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
@@ -246,6 +247,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2123D | [Binary String Battle](https://codeforces.com/contest/2123/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2123/D%20-%20Binary%20String%20Battle/solution.cpp) |
 | 2263A | [Min Max Game](https://codeforces.com/contest/2263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2263/A%20-%20Min%20Max%20Game/solution.cpp) |
 | 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2290/E%20-%20Avalanche/solution.cpp) |
 
@@ -325,6 +327,7 @@
 | 2033D | [Kousuke's Assignment](https://codeforces.com/contest/2033/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2033/D%20-%20Kousuke's%20Assignment/solution.cpp) |
 | 2069C | [Beautiful Sequence](https://codeforces.com/contest/2069/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2069/C%20-%20Beautiful%20Sequence/solution.cpp) |
 | 2091D | [Place of the Olympiad](https://codeforces.com/contest/2091/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2091/D%20-%20Place%20of%20the%20Olympiad/solution.cpp) |
+| 2123D | [Binary String Battle](https://codeforces.com/contest/2123/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2123/D%20-%20Binary%20String%20Battle/solution.cpp) |
 | 2193C | [Replace and Sum](https://codeforces.com/contest/2193/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2193/C%20-%20Replace%20and%20Sum/solution.cpp) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2194/B%20-%20Offshores/solution.cpp) |
 | 2217B | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Siddhartha-TheSidEffect/codeforce-practice/blob/HEAD/2217/B%20-%20Flip%20the%20Bit%20(Easy%20Version)/solution.cpp) |
